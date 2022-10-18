@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "updateUser",
+    "name": "Query6",
     "datasource": {
       "name": "getUsers",
       "pluginId": "postgres-plugin",
@@ -15,10 +15,8 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE users SET name = '{{nameInput.text}}', email = '{{emailInput.text}}', dob = '{{dobInput.selectedDate}}', phone = '{{phoneInput.text}}' WHERE id = {{usersTable.selectedRow.id}} \n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,28 +24,17 @@
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "executeOnLoad": true,
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "dobInput.selectedDate",
-      "emailInput.text",
-      "nameInput.text",
-      "phoneInput.text",
-      "usersTable.selectedRow.id"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_updateUser",
+  "id": "Page1_Query6",
   "deleted": false,
-  "gitSyncId": "6347bd0a61a6260030f09d40_6347d3e961a6260030f0a007"
+  "gitSyncId": "6347bd0a61a6260030f09d40_634e24362124b03009a2092a"
 }
