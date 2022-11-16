@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "ce_shi",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\treturn {name: 'anna',age: '20'}\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t\treturn {name: 'anna1',age: '201'}\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_ce_shi",
+  "deleted": false,
+  "gitSyncId": "6347bd0a61a6260030f09d40_634e4ee70cdc0361e3dd30c3"
+}
